@@ -1,13 +1,54 @@
 site_name: Mona Lisa Overdrive
 site_url: https://mlo.mona-lisa-overdrive.net
+site_description: 'Synthwave, Vaporwave, Electronic Music - Are you just breathing or you really alive?'
+site_author: 'Mona Lisa Overdrive'
+
 theme:
   name: material
   palette:
-    - scheme: default
-      primary: fuchsia
-      accent: purple
+    - scheme: slate
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Share Tech Mono
+    code: Courier New
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  favicon: MLO new logo white.JPG
+  logo: MLO new logo white.JPG
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 nav:
  - Home: index.md
  - Show Dates: show-dates.md
  - Music: music.md
  - About: about.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/monalisaoverdrive
+      name: Follow us on Instagram
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/monalisaoverdrive
+      name: Like us on Facebook
+    - icon: fontawesome/brands/spotify
+      link: https://spotify.com
+      name: Listen on Spotify
