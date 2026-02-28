@@ -1,0 +1,13 @@
+site_name: Mona Lisa Overdrive
+site_url: https://mlo.mona-lisa-overdrive.net
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: fuchsia
+      accent: purple
+nav:
+ - Home: index.md
+ - Show Dates: show-dates.md
+ - Music: music.md
+ - About: about.md
