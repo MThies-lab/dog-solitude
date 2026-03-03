@@ -1,8 +1,15 @@
 <div class="hero-section">
-    <p class="hero-tagline">Are you just breathing
-    or are you really alive?</p>
+    <div class="ticker-wrapper">
+        <div class="ticker-content">
+            <span class="ticker-text">Are you just breathing or are you really alive? /// Are you just breathing or are you really alive? /// Are you just breathing or are you really alive? /// </span>
+        </div>
+    </div>
     <img src="1 band photo.JPG" alt="Mona Lisa Overdrive" class="hero-logo">
-    <p class="hero-tagline">Open your eyes in</p>
+    <div class="ticker-wrapper">
+        <div class="ticker-content">
+            <span class="ticker-text">Open your eyes in /// Open your eyes in /// Open your eyes in /// </span>
+        </div>
+    </div>
     <h1 class="hero-subtitle"> Mona Lisa Overdrive</h1>
 </div>
 

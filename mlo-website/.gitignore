@@ -1,0 +1,36 @@
+# Show dates template - reference only, not for deployment
+show-dates-template.md
+
+# MkDocs build output
+site/
+
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Photo originals (optional - uncomment if you want to exclude very large source files)
+# Only commit if you need to exclude files >100MB or want separate source/web versions
+# docs/images/**/*-original.*
+# docs/images/**/*-source.*
