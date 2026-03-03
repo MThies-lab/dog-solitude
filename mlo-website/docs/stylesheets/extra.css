@@ -189,6 +189,15 @@ body::after {
     background: radial-gradient(ellipse at center, var(--mid-purple) 0%, transparent 70%);
     border-bottom: 2px solid var(--neon-purple);
     margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.hero-section > * {
+    position: relative;
+    z-index: 1;
 }
 
 /* Stock Ticker Animation */
@@ -206,7 +215,7 @@ body::after {
 .ticker-content {
     display: inline-block;
     white-space: nowrap;
-    animation: ticker-scroll 30s linear infinite;
+    animation: ticker-scroll 25.5s linear infinite;
 }
 
 .ticker-text {
@@ -220,7 +229,7 @@ body::after {
 
 @keyframes ticker-scroll {
     0% {
-        transform: translateX(0);
+        transform: translateX(0%);
     }
     100% {
         transform: translateX(-33.33%);
@@ -245,34 +254,6 @@ body::after {
         rgba(0,0,0,0) 100%);
 }
 
-.hero-logo::before {
-    content: '';
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    right: -20px;
-    bottom: -20px;
-    background: radial-gradient(ellipse at center,
-        var(--glow-purple) 0%,
-        var(--glow-pink) 50%,
-        transparent 70%);
-    filter: blur(40px);
-    opacity: 0.8;
-    z-index: -1;
-    animation: pulse-glow-bg 3s ease-in-out infinite;
-}
-
-@keyframes pulse-glow-bg {
-    0%, 100% {
-        opacity: 0.6;
-        transform: scale(1);
-    }
-    50% {
-        opacity: 0.9;
-        transform: scale(1.05);
-    }
-}
-
 @keyframes pulse-glow {
     0%, 100% {
         filter: drop-shadow(0 0 20px var(--glow-purple)) drop-shadow(0 0 40px var(--glow-pink));
@@ -295,20 +276,33 @@ body::after {
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
     font-weight: 900;
-    background: linear-gradient(90deg, var(--neon-pink), var(--neon-purple), var(--neon-cyan), var(--neon-pink));
+    background: linear-gradient(90deg,
+        var(--neon-pink) 0%,
+        var(--neon-purple) 16.67%,
+        var(--neon-cyan) 33.33%,
+        var(--neon-pink) 50%,
+        var(--neon-purple) 66.67%,
+        var(--neon-cyan) 83.33%,
+        var(--neon-pink) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    background-size: 200% auto;
-    animation: gradient-shift 4s linear infinite;
+    background-size: 300% auto;
+    animation: gradient-shift 25.5s linear infinite;
     text-transform: uppercase;
     letter-spacing: 4px;
     margin: 0;
+    text-shadow: 0 0 20px var(--glow-pink);
+    filter: drop-shadow(0 0 15px rgba(255, 0, 128, 0.8)) drop-shadow(0 0 25px rgba(180, 0, 255, 0.6));
 }
 
 @keyframes gradient-shift {
-    0% { background-position: 0% center; }
-    100% { background-position: 200% center; }
+    0% {
+        background-position: 0% center;
+    }
+    100% {
+        background-position: 300% center;
+    }
 }
 
 /* ═══════════════════════════════════════════════════════════════════
