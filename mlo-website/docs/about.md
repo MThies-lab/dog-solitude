@@ -2,37 +2,137 @@
 
 ---
 
-## What is Mona Lisa Overdrive?
+## Meet the band
+ **"Are you just breathing or you really alive?"**
 
-Named after William Gibson's cyberpunk masterpiece, Mona Lisa Overdrive is more than a bandit's an experience, a world, a state of mind.
+This question drives everything we do. We create music that demands presence, harmonizes, and energizes you. We all must wake up from these sullen drudgeries if we are to live for ourselves.
 
-We exist at the intersection of the nostalgic and the futuristic, the analog and the digital, the dreamed and the real.
+When you experience Mona Lisa Overdrive you're not just listening. You're entering the overdrive. 
 
 ---
 
 <div class="grid-2col">
-<div class="card">
+<div class="member-card">
 
-### The Sound
+<div class="member-image-placeholder">
+[Image Placeholder]
+</div>
 
-Our music draws from:
-- **Synthwave** - Retro-futuristic nostalgia
-- **Vaporwave** - Digital aesthetics and atmosphere
-- **Electronic** - Modern production and energy
-- **Experimental** - Pushing boundaries and expectations
+Scott Ewell
 
-The result? Something familiar yet entirely new. Something that makes you feel like you're driving through a neon cityscape that exists only in memory and imagination.
+<span class="member-role">Twin Turbo Guitar</span>
+
+<div class="member-bio">
+Brief bio goes here. Tell us about your musical journey, what drives you, and what you bring to Mona Lisa Overdrive. Share your story and let fans connect with who you are.
+</div>
+
+<div class="member-acts">
+<span class="member-acts-label">Associated Acts</span>
+<div class="member-acts-list">
+Previous Band Name<br>
+Another Project<br>
+Collaboration Name
+</div>
+</div>
 
 </div>
-<div class="card">
+<div class="member-card">
 
-### The Philosophy
+<div class="member-image-placeholder">
+[Image Placeholder]
+</div>
 
-**"Are you just breathing or you really alive?"**
+Van Morris
 
-This question drives everything we do. We create music that demands presence, that pulls you out of autopilot and into the moment.
+<span class="member-role">Twin Turbo Guitar</span>
 
-When you experience Mona Lisa Overdrivewhether live or through headphonesyou're not just listening. You're entering the overdrive. You're opening your eyes.
+<div class="member-bio">
+Brief bio goes here. Tell us about your musical journey, what drives you, and what you bring to Mona Lisa Overdrive. Share your story and let fans connect with who you are.
+</div>
+
+<div class="member-acts">
+<span class="member-acts-label">Associated Acts</span>
+<div class="member-acts-list">
+Previous Band Name<br>
+Another Project<br>
+Collaboration Name
+</div>
+</div>
+
+</div>
+
+<div class="member-card">
+
+<div class="member-image-placeholder">
+[Image Placeholder]
+</div>
+
+Jared Bosse
+
+<span class="member-role">Bass Boss</span>
+
+<div class="member-bio">
+Brief bio goes here. Tell us about your musical journey, what drives you, and what you bring to Mona Lisa Overdrive. Share your story and let fans connect with who you are.
+</div>
+
+<div class="member-acts">
+<span class="member-acts-label">Associated Acts</span>
+<div class="member-acts-list">
+Previous Band Name<br>
+Another Project<br>
+Collaboration Name
+</div>
+</div>
+
+</div>
+
+<div class="member-card">
+
+<div class="member-image-placeholder">
+[Image Placeholder]
+</div>
+
+Phil Milligan
+
+<span class="member-role">The MF'in Drummer</span>
+
+<div class="member-bio">
+Brief bio goes here. Tell us about your musical journey, what drives you, and what you bring to Mona Lisa Overdrive. Share your story and let fans connect with who you are.
+</div>
+
+<div class="member-acts">
+<span class="member-acts-label">Associated Acts</span>
+<div class="member-acts-list">
+Previous Band Name<br>
+Another Project<br>
+Collaboration Name
+</div>
+</div>
+
+</div>
+
+<div class="member-card">
+
+<div class="member-image-placeholder">
+[Image Placeholder]
+</div>
+
+Matt Tease
+
+<span class="member-role">The Vox</span>
+
+<div class="member-bio">
+Brief bio goes here. Tell us about your musical journey, what drives you, and what you bring to Mona Lisa Overdrive. Share your story and let fans connect with who you are.
+</div>
+
+<div class="member-acts">
+<span class="member-acts-label">Associated Acts</span>
+<div class="member-acts-list">
+Previous Band Name<br>
+Another Project<br>
+Collaboration Name
+</div>
+</div>
 
 </div>
 </div>
@@ -44,11 +144,5 @@ When you experience Mona Lisa Overdrivewhether live or through headphonesyou'r
 We're proud to call Wilmington home. Our debut performance features beer brewed specifically for us by Front St Brewerybecause we believe in collaboration, community, and creating experiences that go beyond just the music.
 
 ---
-
-## The Name
-
-In William Gibson's novel, the Mona Lisa Overdrive is the final piece of a trilogy exploring consciousness, identity, and the blurred lines between human and machine, real and virtual.
-
-We take that same spirit of exploration and transformation into our music. Every show, every track is an invitation to transcend the ordinary and experience something more.
 
 **Ready to open your eyes?**
