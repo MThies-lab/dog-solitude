@@ -19,11 +19,11 @@
 
 One day five musicians started playing in a room and we were done, we found ourselves in a new place, a new thread of time.
 
-Together, we're  a neon heartbeat, an elseworlds energy, a rift that takes you to a new state while the amplifiers glow in afterburn. Our goal is simple. No matter what dimension or timeline we shred and groove through--we're here for you, and if you're reading this, then there's something you need to hear.
+Together, we're  a neon heartbeat, an elseworlds energy, a rift that takes you to a new state while the amplifiers glow in afterburn. Our goal is simple. No matter what dimension or timeline we shred and groove through—we're here for you, and if you're reading this, then there's something you need to hear.
 
 We're Mona Lisa Overdrive. We'll get you where you're going
 
-<!--
+
 <div class="grid-2col">
 <div class="card">
 
@@ -38,7 +38,7 @@ Immersive performances that transport you to another dimension. Check out our up
 
 ### Our Sound
 
-Explore our discography and dive into the world we're building. Each track is crafted to take you deeper into the overdrive.
+Explore our discography and dive into the overdrive. Each track is crafted to take you deeper into the world we're building.
 
 [Listen Now](music.md){ .cta-button }
 
@@ -52,4 +52,3 @@ Explore our discography and dive into the world we're building. Each track is cr
 Experience Mona Lisa Overdrive live at **Eagles Dare** with Bridge to Breakdown. This is where it all begins. Come open your eyes in the overdrive with our very own band-branded beer brewed right here in Wilmington, NC at Front St Brewery.
 
 **This is not just a show. This is an awakening.**
--->
