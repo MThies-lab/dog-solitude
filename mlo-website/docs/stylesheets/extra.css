@@ -424,6 +424,34 @@ body::after {
     line-height: 1.7;
 }
 
+.support-acts {
+    font-family: 'Share Tech Mono', monospace;
+    color: var(--neon-purple);
+    font-size: 0.95rem;
+    margin: 5px 0;
+}
+
+.ticket-price {
+    font-family: 'Share Tech Mono', monospace;
+    color: var(--neon-cyan);
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.age {
+    font-family: 'Share Tech Mono', monospace;
+    color: #e0e0ff;
+    font-size: 0.85rem;
+    margin: 5px 0;
+}
+
+.show-time {
+    font-family: 'Share Tech Mono', monospace;
+    color: var(--neon-pink);
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
 .no-shows-message {
     text-align: center;
     color: var(--neon-cyan);
@@ -432,227 +460,14 @@ body::after {
     opacity: 0.7;
 }
 
-/* ═══════════════════════════════════════════════════════════════════
-   SHOW CARD EXPANSION (ACCORDION)
-   ═══════════════════════════════════════════════════════════════════ */
-
-.event-card-expanded {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease, opacity 0.5s ease, margin-top 0.5s ease;
-    opacity: 0;
-    margin-top: 0;
-}
-
-.event-card-expanded.active {
-    max-height: 2000px;
-    opacity: 1;
-    margin-top: 20px;
-}
-
-.show-details-content {
-    background: rgba(0, 0, 0, 0.5);
-    border: 2px solid var(--neon-cyan);
-    border-radius: 8px;
-    padding: 30px;
-    box-shadow: 0 0 25px var(--glow-cyan);
-    position: relative;
-    overflow: hidden;
-}
-
-/* Animated lights traveling around border perimeter */
-.show-details-content::before {
-    content: '';
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: radial-gradient(
-        circle,
-        rgba(255, 255, 255, 1) 0%,
-        rgba(0, 255, 255, 0.8) 30%,
-        transparent 70%
-    );
-    border-radius: 50%;
-    filter: blur(8px);
-    animation: border-chase 5.75s linear infinite;
-    pointer-events: none;
-    z-index: 10;
-}
-
-.show-details-content::after {
-    content: '';
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: radial-gradient(
-        circle,
-        rgba(255, 255, 255, 1) 0%,
-        rgba(255, 0, 128, 0.8) 30%,
-        transparent 70%
-    );
-    border-radius: 50%;
-    filter: blur(8px);
-    animation: border-chase-2 5.75s linear infinite;
-    pointer-events: none;
-    z-index: 10;
-}
-
-/* Third chase light - need to add via child element styling */
-.show-details-content {
-    position: relative;
-}
-
-.show-details-content h3:first-of-type::before {
-    content: '';
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: radial-gradient(
-        circle,
-        rgba(255, 255, 255, 1) 0%,
-        rgba(180, 0, 255, 0.8) 30%,
-        transparent 70%
-    );
-    border-radius: 50%;
-    filter: blur(8px);
-    animation: border-chase-3 5.75s linear infinite;
-    pointer-events: none;
-    z-index: 10;
-}
-
-@keyframes border-chase {
-    /* Start top-left, go right along top */
-    0% {
-        top: -20px;
-        left: -20px;
-    }
-    /* Top-right corner */
-    25% {
-        top: -20px;
-        left: calc(100% - 20px);
-    }
-    /* Bottom-right corner */
-    50% {
-        top: calc(100% - 20px);
-        left: calc(100% - 20px);
-    }
-    /* Bottom-left corner */
-    75% {
-        top: calc(100% - 20px);
-        left: -20px;
-    }
-    /* Back to top-left */
-    100% {
-        top: -20px;
-        left: -20px;
-    }
-}
-
-@keyframes border-chase-2 {
-    /* Start 1/3 around (top-right area) */
-    0% {
-        top: -20px;
-        left: calc(33% - 20px);
-    }
-    /* Continue right to corner */
-    8.33% {
-        top: -20px;
-        left: calc(100% - 20px);
-    }
-    /* Down right side */
-    33.33% {
-        top: calc(100% - 20px);
-        left: calc(100% - 20px);
-    }
-    /* Across bottom */
-    58.33% {
-        top: calc(100% - 20px);
-        left: -20px;
-    }
-    /* Up left side */
-    83.33% {
-        top: -20px;
-        left: -20px;
-    }
-    /* Back to start position */
-    100% {
-        top: -20px;
-        left: calc(33% - 20px);
-    }
-}
-
-@keyframes border-chase-3 {
-    /* Start 2/3 around (bottom area) */
-    0% {
-        top: calc(66% - 20px);
-        left: calc(100% - 20px);
-    }
-    /* Down to bottom-right */
-    16.67% {
-        top: calc(100% - 20px);
-        left: calc(100% - 20px);
-    }
-    /* Across bottom */
-    41.67% {
-        top: calc(100% - 20px);
-        left: -20px;
-    }
-    /* Up left side */
-    66.67% {
-        top: -20px;
-        left: -20px;
-    }
-    /* Across top */
-    91.67% {
-        top: -20px;
-        left: calc(100% - 20px);
-    }
-    /* Back down to start */
-    100% {
-        top: calc(66% - 20px);
-        left: calc(100% - 20px);
-    }
-}
-
-.show-details-content h3 {
-    font-family: 'Orbitron', sans-serif;
-    color: var(--neon-cyan);
-    text-shadow: 0 0 10px var(--glow-cyan);
-    margin-top: 20px;
-    margin-bottom: 15px;
-    font-size: 1.5rem;
-}
-
-.show-details-content h3:first-child {
-    margin-top: 0;
-}
-
-.show-details-content p {
-    color: #e0e0ff;
-    line-height: 1.8;
-    margin-bottom: 15px;
-}
-
-.show-details-box {
-    background: rgba(0, 0, 0, 0.3);
-    border: 1px solid var(--neon-purple);
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px 0;
-}
-
-.show-details-box strong {
-    color: var(--neon-pink);
-}
-
-.show-details-cta {
+.show-cta {
     text-align: center;
     margin-top: 30px;
     padding-top: 20px;
     border-top: 1px solid var(--neon-purple);
 }
 
-.show-details-cta .cta-button {
+.show-cta .cta-button {
     margin: 10px;
 }
 
