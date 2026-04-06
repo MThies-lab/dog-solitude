@@ -4,7 +4,7 @@
             <span class="ticker-text">Are you just breathing or are you really alive? /// Are you just breathing or are you really alive? /// Are you just breathing or are you really alive? /// </span>
         </div>
     </div>
-    <img src="1 band photo.JPG" alt="Mona Lisa Overdrive" class="hero-logo">
+    <img src="images/1 band photo.jpg" alt="Mona Lisa Overdrive" class="hero-logo">
     <div class="ticker-wrapper">
         <div class="ticker-content">
             <span class="ticker-text">Open your eyes in /// Open your eyes in /// Open your eyes in /// </span>
