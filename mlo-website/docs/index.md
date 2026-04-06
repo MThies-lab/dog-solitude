@@ -17,13 +17,48 @@
 
 ## Experience the Overdrive
 
-One day five musicians started playing in a room and we were done, we found ourselves in a new place, a new thread of time.
+The full-throttle five of Mona Lisa Overdrive didn't find each other — the multiverse pushed them into a room together and the rest of this timeline hasn't been the same since.
+<br>
+<br>
+It's high energy, it's big groove, it's vocals forward. It's AC/DC muscle, it's Van Halen flash. It's glam swagger, it's supercharged pop, it's Rock 'n' Roll. It's just neon heartbeat cracking the room open at the seams with amplifiers singing, all heat and sonic afterburn.
+<br>
+<br>
+We're Mona Lisa Overdrive. We'll get you where you're going.
 
-Together, we're  a neon heartbeat, an elseworlds energy, a rift that takes you to a new state while the amplifiers glow in afterburn. Our goal is simple. No matter what dimension or timeline we shred and groove through—we're here for you, and if you're reading this, then there's something you need to hear.
 
-We're Mona Lisa Overdrive. We'll get you where you're going
+## Follow Mona Lisa Overdrive on the Net
+<div class="grid-2col">
+<div class="card">
+
+<h3>Instagram</h3>
+
+<p>Behind-the-scenes content, show updates, and visual overdrive.</p>
+
+<a href="https://www.instagram.com/monalisa_overdrive_" class="cta-button">Follow on Instagram</a>
+
+</div>
+<div class="card">
+
+<h3>Facebook</h3>
+
+<p>Event announcements, community updates, and exclusive content.</p>
+
+<a href="https://www.facebook.com/MonaLisa0verdrive" class="cta-button">Follow on Facebook</a>
+
+</div>
+<div class="card">
+
+<h3>Tik Tok</h3>
+
+<p>Short clips, teasers, and the raw energy of the overdrive.</p>
+
+<a href="https://www.tiktok.com/@mona.lisa.overdri" class="cta-button">Follow on Tik Tok</a>
+
+</div>
+</div>
 
 
+<!--
 <div class="grid-2col">
 <div class="card">
 
@@ -52,3 +87,4 @@ Explore our discography and dive into the overdrive. Each track is crafted to ta
 Experience Mona Lisa Overdrive live at **Eagles Dare** with Bridge to Breakdown. This is where it all begins. Come open your eyes in the overdrive with our very own band-branded beer brewed right here in Wilmington, NC at Front St Brewery.
 
 **This is not just a show. This is an awakening.**
+-->
