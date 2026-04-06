@@ -43,7 +43,7 @@ HOW TO ADD GOOGLE MAPS:
 </div>
 
 ---
-
+<!-->
 ## Past Shows
 
 <div id="past-shows">
