@@ -12,13 +12,9 @@
         <meta name="author" content="Mona Lisa Overdrive">
       
       
-        <link rel="canonical" href="https://monalisaoverdrive.net/show-dates/">
+        <link rel="canonical" href="https://monalisaoverdrive.net/show-dates-template/">
       
       
-        <link rel="prev" href="..">
-      
-      
-        <link rel="next" href="../about/">
       
       
         
@@ -29,7 +25,7 @@
     
     
       
-        <title>Show Dates - Mona Lisa Overdrive</title>
+        <title>Show Dates Template - Mona Lisa Overdrive</title>
       
     
     
@@ -82,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#show-dates" class="md-skip">
+        <a href="#show-dates-template" class="md-skip">
           Skip to content
         </a>
       
@@ -117,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Show Dates
+              Show Dates Template
             
           </span>
         </div>
@@ -254,37 +250,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Show Dates
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../show-dates/" class="md-nav__link">
         
   
   
@@ -300,37 +269,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#upcoming-shows" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Upcoming Shows
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -389,10 +327,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#upcoming-shows" class="md-nav__link">
+  <a href="#adding-a-new-show" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Upcoming Shows
+        Adding a New Show
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-the-auto-move-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How the Auto-Move Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tips
       
     </span>
   </a>
@@ -416,63 +387,65 @@
 
 
 
-<h1 id="show-dates">Show Dates</h1>
-<hr />
-<h2 id="upcoming-shows">Upcoming Shows</h2>
-<div id="upcoming-shows" markdown="0">
-<div class="event-card" data-date="2026-04-18">
-<div class="event-date">April 18th, 2026</div>
-<div class="event-venue">The Eagle's Dare</div>
-<div class="support-acts">Bridge to Breakdown</div>
-<div class="ticket-price">$8 presale, $12 day-of admission</div>
-<div class="ticket-link">https://mona-lisa-overdrive-with-bridge-to-breakdown.eventbrite.com
-<div class="age">21+</div>
-<div class="show-time">Doors at 7pm Show at 9pm</div>
-<div class="event-details">
-Open your eyes in Mona Lisa Overdrive!
+<h1 id="show-dates-template">Show Dates Template</h1>
+<p>Use this template to add new shows to the show-dates.md file.</p>
+<h2 id="adding-a-new-show">Adding a New Show</h2>
+<p>Copy the event card structure below and paste it into the "Upcoming Shows" section of <code>docs/show-dates.md</code>.</p>
+<p><strong>Important:</strong> Make sure to update the <code>data-date</code> attribute with the correct date in YYYY-MM-DD format. This is what the JavaScript uses to automatically move shows to Past Shows.</p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;event-card&quot;</span> <span class="na">data-date</span><span class="o">=</span><span class="s">&quot;YYYY-MM-DD&quot;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;event-date&quot;</span><span class="p">&gt;</span>Month Day, Year<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;event-venue&quot;</span><span class="p">&gt;</span>Venue Name w/ Support Acts<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;Ticket Price&quot;</span><span class="p">&gt;</span> ticket or door prive<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;Age&quot;</span><span class="p">&gt;</span> ages allowed<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;show time&quot;</span><span class="p">&gt;</span> when do doors open, when does show start<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;event-details&quot;</span><span class="p">&gt;</span>
 
-The Eagle's Dare presents Wilmington's newest electric sensation, Mona Lisa Overdrive & the beasts from Down East--Bridge to Breakdown on April 18th.
+**SHOW TITLE/THEME** (optional)
 
- Satiate your thirst with our very own MLO-branded beer brewed right here in Wilmington, NC at Front St Brewery.
+Description of the show. What makes this performance special?
 
-<img src="/eaglesdareapril18th.png" alt="Eagles dare presents Mona Lisa Overdrive April 18th">
-</div>
+**Location:** Venue Name, City, State
+**Time:** Door time / Show time
+**Tickets:** Link or information
+**Special:** Any special notes (guest appearances, themed night, etc.)
 
-<!--
-HOW TO ADD GOOGLE MAPS:
-1. Go to Google Maps
-2. Search for the venue (e.g., "Eagles Dare Wilmington NC")
-3. Click "Share" button
-4. Click "Embed a map" tab
-5. Copy the iframe code
-6. Replace the src URL in the iframe below with your copied URL
-7. Keep the styling attributes (border-radius, margin, etc.)
--->
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6596.598990441861!2d-77.9462248!3d34.2409007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89aa1fc175f85039%3A0xdaac1e9f9a622ad0!2s420%20N%203rd%20St%2C%20Wilmington%2C%20NC%2028401!5e0!3m2!1sen!2sus!4v1775094790826!5m2!1sen!2sus" width="100%" height="300" style="border:0; border-radius: 8px; margin: 20px 0; box-shadow: 0 0 15px var(--glow-purple);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<div class="show-cta">
-<a href="https://www.eventbrite.com/e/mona-lisa-overdrive-with-bridge-to-breakdown-tickets-1984169702994" class="cta-button">Get Tickets</a>
-<a href="https://www.facebook.com/share/18ZqjM1iiN/?mibextid=wwXIfr" class="cta-button" target="_blank">Facebook Event</a>
-<a href="https://maps.google.com/?q=Eagles+Dare+Wilmington+NC" class="cta-button" target="_blank">Get Directions</a>
-</div>
-</div>
-</div>
+Additional details about the show.
 
----
-<!--
-## Past Shows
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</code></pre></div>
+<h2 id="example">Example</h2>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;event-card&quot;</span> <span class="na">data-date</span><span class="o">=</span><span class="s">&quot;2026-05-20&quot;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;event-date&quot;</span><span class="p">&gt;</span>May 20th, 2026<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;event-venue&quot;</span><span class="p">&gt;</span>The Observatory w/ Neon Dreams<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;event-details&quot;</span><span class="p">&gt;</span>
 
-<div id="past-shows">
+**OVERDRIVE TOUR**
 
-</div>
+Join us for an immersive night of synthwave and vaporwave. Full visual production with custom lighting.
 
----
+**Location:** The Observatory, Charlotte, NC
+**Time:** Doors 8pm / Show 9pm
+**Tickets:** [Get Tickets](https://ticketlink.com)
+**Special:** Limited edition tour merch available
 
-## Stay Updated
+This is one you won&#39;t want to miss.
 
-More dates coming soon. The overdrive is now online.
-
-Follow us on social media to stay in the loop about upcoming performances and new releases.
--->
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</code></pre></div>
+<h2 id="how-the-auto-move-works">How the Auto-Move Works</h2>
+<p>The JavaScript automatically checks show dates:
+- On page load
+- At midnight each day</p>
+<p>Shows with <code>data-date</code> that have passed will automatically move from "Upcoming Shows" to "Past Shows" (newest first).</p>
+<h2 id="tips">Tips</h2>
+<ol>
+<li>Always use the format <code>data-date="YYYY-MM-DD"</code> (e.g., <code>data-date="2026-12-31"</code>)</li>
+<li>Keep the event-date display format human-readable (e.g., "December 31st, 2026")</li>
+<li>Add new shows to the Upcoming Shows section - the script handles the rest</li>
+<li>Past shows are displayed in reverse chronological order (most recent first)</li>
+</ol>
 
 
 
