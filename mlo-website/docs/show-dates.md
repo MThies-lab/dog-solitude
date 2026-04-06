@@ -43,7 +43,7 @@ HOW TO ADD GOOGLE MAPS:
 </div>
 
 ---
-<!-->
+<!--
 ## Past Shows
 
 <div id="past-shows">
@@ -57,3 +57,4 @@ HOW TO ADD GOOGLE MAPS:
 More dates coming soon. The overdrive is now online.
 
 Follow us on social media to stay in the loop about upcoming performances and new releases.
+-->
