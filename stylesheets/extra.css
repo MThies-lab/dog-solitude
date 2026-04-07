@@ -796,7 +796,12 @@ body::after {
 .visitor-ticker-content {
     display: inline-block;
     white-space: nowrap;
-    animation: ticker-scroll 30s linear infinite;
+    animation: visitor-ticker-scroll 20s linear infinite;
+}
+
+@keyframes visitor-ticker-scroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
 }
 
 .visitor-ticker-text {
