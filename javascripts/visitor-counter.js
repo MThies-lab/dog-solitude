@@ -35,30 +35,19 @@ function initVisitorCounter() {
       runTransaction(counterRef, (current) => (current || 0) + 1);
     }
 
-    // Display the count with animated digits
+    // Display the count
     onValue(counterRef, (snapshot) => {
       const count = snapshot.val() || 0;
-      animateCounter(countEl, count);
+      const formatted = String(count).padStart(6, '0');
+      countEl.textContent = formatted;
+      document.querySelectorAll('.visit-count-clone').forEach(el => {
+        el.textContent = formatted;
+      });
     });
 
   }).catch(err => {
     console.warn('Visitor counter unavailable:', err);
     countEl.textContent = '??????';
-  });
-}
-
-function animateCounter(el, count) {
-  const str = String(count).padStart(6, '0');
-  el.innerHTML = str.split('').map(d => `<span class="digit">${d}</span>`).join('');
-
-  // Flicker each digit in with a slight delay
-  const digits = el.querySelectorAll('.digit');
-  digits.forEach((d, i) => {
-    d.style.opacity = '0';
-    setTimeout(() => {
-      d.style.transition = 'opacity 0.1s';
-      d.style.opacity = '1';
-    }, i * 80);
   });
 }
 
