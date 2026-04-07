@@ -16,7 +16,7 @@ We don't know where you need to go, but either way, you're going.
 <div class="grid-2col">
 <div class="member-card">
 
-<img src="images/aboutphotos/scott 1.jpg" alt="Scott Ewell" class="member-image-placeholder">
+<img src="/images/aboutphotos/scott 1.jpg" alt="Scott Ewell" class="member-image-placeholder">
 
 <h3> Scott Ewell </h3>
 
@@ -43,7 +43,7 @@ Primordial Tides<br>
 
 <div class="member-card">
 
-<img src="images/aboutphotos/van7 2.jpg" alt="Van Morris" class="member-image-placeholder">
+<img src="/images/aboutphotos/van7 2.jpg" alt="Van Morris" class="member-image-placeholder">
 
 <h3>Van Morris</h3>
 
@@ -68,7 +68,7 @@ Van Morris (solo)
 
 <div class="member-card">
 
-<img src="images/aboutphotos/jared 10.jpg" alt="Jared Bosse" class="member-image-placeholder">
+<img src="/images/aboutphotos/jared 10.jpg" alt="Jared Bosse" class="member-image-placeholder">
 
 <h3>Jared Bosse</h3>
 
@@ -93,7 +93,7 @@ Loud Music Company<br>
 
 <div class="member-card">
 
-<img src="images/aboutphotos/phil 5.jpg" alt="Phil Milligan" class="member-image-placeholder">
+<img src="/images/aboutphotos/phil 5.jpg" alt="Phil Milligan" class="member-image-placeholder">
 
 <h3>Phil Milligan</h3>
 
@@ -120,7 +120,7 @@ Open Wire
 <div style="display: flex; justify-content: center; margin: 30px 0;">
 <div class="member-card" style="max-width: 400px;">
 
-<img src="images/aboutphotos/matt 20.jpg" alt="Matt Tease" class="member-image-placeholder">
+<img src="/images/aboutphotos/matt 20.jpg" alt="Matt Tease" class="member-image-placeholder">
 
 <h3>Matt Tease</h3>
 
@@ -148,9 +148,10 @@ Still As Wicked<br>
 
 ---
 
-<h3> Wilmington, NC </h3>
+## Wilmington, NC
 
 Regardless of what timeline we're in, Wilmington and Cape Fear is home.
+
 ---
 
 **Ready to open your eyes?**

@@ -20,7 +20,7 @@ The Eagle's Dare presents Wilmington's newest electric sensation, Mona Lisa Over
 
  Satiate your thirst with our very own MLO-branded beer brewed right here in Wilmington, NC at Front St Brewery.
 
-<img src="/eaglesdareapril18th.png" alt="Eagles dare presents Mona Lisa Overdrive April 18th">
+<img src="/images/eaglesdareapril18th.png" alt="Eagles dare presents Mona Lisa Overdrive April 18th">
 </div>
 
 <!--
