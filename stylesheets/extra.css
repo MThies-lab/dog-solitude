@@ -23,6 +23,7 @@
    ═══════════════════════════════════════════════════════════════════ */
 
 body {
+    pointer-events: auto;
     font-family: 'Share Tech Mono', 'Courier New', monospace !important;
     background:
         linear-gradient(180deg,
@@ -95,10 +96,14 @@ body::after {
 }
 
 .md-main,
-.md-header,
 .md-footer {
     position: relative;
     z-index: 1;
+}
+
+.md-header {
+    position: relative;
+    z-index: 5 !important; /* must stay above overlay (3) and sidebar (4) */
 }
 
 .md-header {
