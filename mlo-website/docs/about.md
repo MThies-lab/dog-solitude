@@ -5,9 +5,9 @@
 ## Meet the band
  **"Are you just breathing or you really alive?"**
 
-We have but one mission--to make sure that you leave our show in a better state than you arrived.
+We have but one mission - to make sure that you leave our show in a better state than you arrived.
 
-Little did we know how radical that journey would take us as we started experiencing strange occurrences, strange Mandela effects, blips, and altered history. Then we realized, we'd been harmonizing the strings, different timelines, nullifying the dissonances and crossing over. We had been timeline hopping, and we don't know if we'll ever to get to stop, because so many are chained by the sullen drudgeries of life, and walking through in haze. 
+Little did we know how radical that journey would take us as we started experiencing strange occurrences, strange Mandela effects, blips, and altered history. Then we realized, we'd been harmonizing the strings, different timelines, nullifying the dissonances and crossing over. We'd been timeline hopping, and we don't know if we'll ever to get to stop, because so many are chained by the sullen drudgeries of life, and walking through in haze. 
 
 We don't know where you need to go, but either way, you're going. 
 
@@ -34,8 +34,9 @@ Quick to a smile and drawn to unique tones and transitions, Scott complements th
 <div class="member-acts">
 <span class="member-acts-label">Associated Acts</span>
 <div class="member-acts-list">
-Orbital Class<br>
-Primordial Tides<br>
+<div class="Associated Act"> <a href="https://open.spotify.com/artist/2R4ZayVUVWqsyHlxUUNKmQ?si=jGXDnAazRiCFvdFmaUjk1g">Orbital Class</a></div><br>
+<div class="Associated Act"> <a href="https://www.facebook.com/primordialtides/">Primordial Tides</a></div><br>
+<br>
 </div>
 </div>
 
@@ -58,9 +59,8 @@ Equal parts humble artist and backroads rebel, Van's roots are wound tightly wit
 <div class="member-acts">
 <span class="member-acts-label">Associated Acts</span>
 <div class="member-acts-list">
-Honey & Bones<br>
-The Nobles<br>
-Van Morris (solo)
+<div class="Associated Act"> <a href="https://open.spotify.com/artist/0qSeSNCGDSOxHv2WJe6GNU?si=UB85S9EyR-KLz14O2dPJqw">Honey & Bones</a></div><br>
+<div class="Associated Act"> <a href="https://www.instagram.com/the_nobles_ilm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">The Nobles</a></div><br>
 </div>
 </div>
 
@@ -75,7 +75,7 @@ Van Morris (solo)
 <span class="member-role">Bass Boss</span>
 
 <div class="member-bio">
-“When it awoke, no one knows for sure—but there was no denying its neon heartbeat.”<br>
+“When it awoke, no one knows for sure — but there was no denying its neon heartbeat.”<br>
 <br>
 Meet MLO's Bass Boss. A surfer of soundwaves and captivator of cameras, Jared is as hardworking as he is enthusiastic. He seems to run on the very same low end energy he provides, the deep thrum of the overdrive, proving himself a product of his own paradox.
 </div>
@@ -83,8 +83,8 @@ Meet MLO's Bass Boss. A surfer of soundwaves and captivator of cameras, Jared is
 <div class="member-acts">
 <span class="member-acts-label">Associated Acts</span>
 <div class="member-acts-list">
-Sometimes Fun<br>
-Loud Music Company<br>
+<div class="Associated Act"> <a href="https://www.instagram.com/sometimesfunband/">Sometimes Fun</a></div><br>
+<div class="Associated Act"> <a href="https://open.spotify.com/artist/38i1UpBZ2NCYzeYbrW1BSU?si=nuec2iWHTTSmk5wlOJf8sA">Loud Music Company</a></div><br>
 
 </div>
 </div>
@@ -108,9 +108,9 @@ A master and veteran of his craft, Phil is a musician raised by musicians and sp
 <div class="member-acts">
 <span class="member-acts-label">Associated Acts</span>
 <div class="member-acts-list">
-Madgallica<br>
-Hatch Brothers<br>
-Open Wire
+<div class="Associated Act"> <a href="https://open.spotify.com/artist/2XIbkg5RbHy7GO6guyCVNS?si=s4soU4twSbejNeTMFN91RQ">Madgallica</a></div><br>
+<div class="Associated Act"> <a href="https://open.spotify.com/artist/5ENmZaZTmcMnivNQBcKNt4?si=Rm3dS6MWSlSx7BQwSogxOA">Hatch Brothers</a></div><br>
+<div class="Associated Act"> <a href="https://open.spotify.com/artist/5zjJcUMNtfA0TefeRmkglg?si=KRFnFJYhSJyiwrQCScoDCg">Open Wire</a></div><br>
 </div>
 </div>
 
@@ -137,8 +137,8 @@ The swaying, swaggered voice and polychrome maniac of the overdrive. He obsesses
 <div class="member-acts">
 <span class="member-acts-label">Associated Acts</span>
 <div class="member-acts-list">
-Open Wire<br>
-Still As Wicked<br>
+<div class="Associated Act"> <a href="https://open.spotify.com/artist/5zjJcUMNtfA0TefeRmkglg?si=KRFnFJYhSJyiwrQCScoDCg">Open Wire</a></div><br>
+<div class="Associated Act"> <a href="https://open.spotify.com/artist/6I82rUm1QHxDHq5wiskyNz?si=i-nSJiEATiGRcc1NeDOhHg">Still As Wicked</a></div><br>
 
 </div>
 </div>
@@ -150,7 +150,7 @@ Still As Wicked<br>
 
 ## Wilmington, NC
 
-Regardless of what timeline we're in, Wilmington and Cape Fear is home.
+Regardless of what timeline we're in, the neon glow under spanish moss, the cracking thunder overhead, and the salty streets of Wilmington are home.
 
 ---
 

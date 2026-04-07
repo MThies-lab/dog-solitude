@@ -8,17 +8,17 @@
 <div class="event-card" data-date="2026-04-18">
 <div class="event-date">April 18th, 2026</div>
 <div class="event-venue">The Eagle's Dare</div>
-<div class="support-acts">Bridge to Breakdown</div>
+<div class="support-acts">with Bridge to Breakdown</div>
 <div class="ticket-price">$8 presale, $12 day-of admission</div>
-<div class="ticket-link">https://mona-lisa-overdrive-with-bridge-to-breakdown.eventbrite.com
+<div class="ticket-link"> <a href="https://mona-lisa-overdrive-with-bridge-to-breakdown.eventbrite.com">Presale Tickets Available Now</a></div>
 <div class="age">21+</div>
 <div class="show-time">Doors at 7pm Show at 9pm</div>
 <div class="event-details">
-Open your eyes in Mona Lisa Overdrive!
-
-The Eagle's Dare presents Wilmington's newest electric sensation, Mona Lisa Overdrive & the beasts from Down East--Bridge to Breakdown on April 18th.
-
- Satiate your thirst with our very own MLO-branded beer brewed right here in Wilmington, NC at Front St Brewery.
+Open your eyes in Mona Lisa Overdrive!<br>
+<br>
+The Eagle's Dare presents Wilmington's newest electric sensation, Mona Lisa Overdrive & the beasts from Down East - Bridge to Breakdown on April 18th.<br>
+<br>
+ Satiate your thirst with your very own MLO beer - brewed right here in Wilmington, NC at Front St Brewery!
 
 <img src="/images/eaglesdareapril18th.png" alt="Eagles dare presents Mona Lisa Overdrive April 18th">
 </div>

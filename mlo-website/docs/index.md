@@ -15,13 +15,17 @@
 
 ---
 
-## Experience the Overdrive
+## We're Mona Lisa Overdrive:
 
-The full-throttle five of Mona Lisa Overdrive didn't find each other — the multiverse pushed them into a room together and the rest of this timeline hasn't been the same since.
+A neon heartbeat cracking the room open at the seams with singing amplifiers, all heat and sonic afterburn.<br>
 <br>
+There's bands, and then there's Mona Lisa Overdrive.<br>
 <br>
-It's high energy, it's big groove, it's vocals forward. It's AC/DC muscle, it's Van Halen flash. It's glam swagger, it's supercharged pop, it's Rock 'n' Roll. It's just neon heartbeat cracking the room open at the seams with amplifiers singing, all heat and sonic afterburn.
+Built on a groove wide enough to sail a battleship through, unbridled elseworlds wails, and supercharged energy, MLO's real show starts when the room begins to shift. When the time seems to curl away somewhere. <br>
 <br>
+You may have walked in only breathing. <br>
+<br>
+But you're gonna leave living.<br>
 <br>
 We're Mona Lisa Overdrive. We'll get you where you're going.
 
@@ -41,7 +45,7 @@ We're Mona Lisa Overdrive. We'll get you where you're going.
 
 <h3>Facebook</h3>
 
-<p>Event announcements, community updates, and exclusive content.</p>
+<p> The metaverse may have flopped, but they still have a pretty good events feature.</p>
 
 <a href="https://www.facebook.com/MonaLisa0verdrive" class="cta-button">Follow on Facebook</a>
 
@@ -50,7 +54,7 @@ We're Mona Lisa Overdrive. We'll get you where you're going.
 
 <h3>Tik Tok</h3>
 
-<p>Short clips, teasers, and the raw energy of the overdrive.</p>
+<p>Is it Chinese? American? Will we do a silly dance? There's only one way to find out.</p>
 
 <a href="https://www.tiktok.com/@mona.lisa.overdri" class="cta-button">Follow on Tik Tok</a>
 
