@@ -759,6 +759,11 @@ body::after {
    ═══════════════════════════════════════════════════════════════════ */
 
 @media screen and (max-width: 768px) {
+    .md-header__title {
+        font-size: 0.85rem !important;
+        letter-spacing: 1px;
+    }
+
     .hero-subtitle {
         font-size: 1.8rem;
     }
