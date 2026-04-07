@@ -96,14 +96,9 @@ body::after {
 }
 
 .md-main,
+.md-header,
 .md-footer {
     position: relative;
-    z-index: 1;
-}
-
-.md-header {
-    position: relative;
-    z-index: 5 !important; /* must stay above overlay (3) and sidebar (4) */
 }
 
 .md-header {
@@ -750,26 +745,6 @@ body::after {
         color: var(--neon-pink) !important;
         border-left: 3px solid var(--neon-pink);
     }
-
-    .md-overlay {
-    z-index: 3 !important;
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-
-    .md-sidebar--primary {
-    z-index: 4 !important;
-}
-
-    .md-sidebar--primary .md-sidebar__scrollwrap {
-    z-index: 5 !important;
-    position: relative;
-}
-
-    .md-nav__link {
-    position: relative;
-    z-index: 6 !important;
-    pointer-events: auto !important;
-}
 
     /* Table of contents title in mobile drawer */
     .md-sidebar--primary .md-nav__title {
