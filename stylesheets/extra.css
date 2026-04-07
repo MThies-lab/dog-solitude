@@ -699,27 +699,7 @@ body::after {
 
 /* Overlay background when menu is open */
 .md-overlay {
-    background: rgba(0, 0, 0, 0.4) !important;
-}
-
-.md-overlay {
-    z-index: 3 !important;
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-
-.md-sidebar--primary {
-    z-index: 4 !important;
-}
-
-.md-sidebar--primary .md-sidebar__scrollwrap {
-    z-index: 5 !important;
-    position: relative;
-}
-
-.md-nav__link {
-    position: relative;
-    z-index: 6 !important;
-    pointer-events: auto !important;
+    background: rgba(0, 0, 0, 0.8) !important;
 }
 
 /* Style mobile navigation on all screen sizes */
@@ -765,6 +745,26 @@ body::after {
         color: var(--neon-pink) !important;
         border-left: 3px solid var(--neon-pink);
     }
+
+.md-overlay {
+    z-index: 3 !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.md-sidebar--primary {
+    z-index: 4 !important;
+}
+
+.md-sidebar--primary .md-sidebar__scrollwrap {
+    z-index: 5 !important;
+    position: relative;
+}
+
+.md-nav__link {
+    position: relative;
+    z-index: 6 !important;
+    pointer-events: auto !important;
+}
 
     /* Table of contents title in mobile drawer */
     .md-sidebar--primary .md-nav__title {
