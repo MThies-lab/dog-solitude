@@ -15,13 +15,15 @@
 
 ---
 
-## We're Mona Lisa Overdrive:
+## Wilmington, NC's Hottest Electric Rock Band
 
-A neon heartbeat cracking the room open at the seams with singing amplifiers, all heat and sonic afterburn.<br>
+Just a neon heartbeat cracking the room open at the seams with singing amplifiers, all heat and sonic afterburn.<br>
 <br>
-There's bands, and then there's Mona Lisa Overdrive.<br>
+It's all the muscle of AC/DC, the flash of Van Halen, the crisp tone of the Scorpions.<br>
 <br>
-Built on a groove wide enough to sail a battleship through, unbridled elseworlds wails, and supercharged energy, MLO's real show starts when the room begins to shift. When the time seems to curl away somewhere. <br>
+Mona Lisa Overdrive boasts Twin Turbo Guitars, a wall of bass, precision drumming, and soaring vocals all dedicated to a big groove, high energy, and vocals forward presentation.<br>
+<br>
+But the real show starts when the room begins to shift. When the *jamais vu* hits. When time seems to curl away somewhere... <br>
 <br>
 You may have walked in only breathing. <br>
 <br>
@@ -29,8 +31,7 @@ But you're gonna leave living.<br>
 <br>
 We're Mona Lisa Overdrive. We'll get you where you're going.
 
-
-## Follow Mona Lisa Overdrive on the Net
+## Follow us on the Net
 <div class="grid-2col">
 <div class="card">
 
@@ -61,6 +62,11 @@ We're Mona Lisa Overdrive. We'll get you where you're going.
 </div>
 </div>
 
+---
+
+## Booking
+
+For booking requests, <a href="mailto:monalisaoverdriveilm@gmail.com" class="display">email us.</a>
 
 <!--
 <div class="grid-2col">
@@ -86,9 +92,4 @@ Explore our discography and dive into the overdrive. Each track is crafted to ta
 
 ---
 
-## Debut Performance - April 18th
-
-Experience Mona Lisa Overdrive live at **Eagles Dare** with Bridge to Breakdown. This is where it all begins. Come open your eyes in the overdrive with our very own band-branded beer brewed right here in Wilmington, NC at Front St Brewery.
-
-**This is not just a show. This is an awakening.**
 -->

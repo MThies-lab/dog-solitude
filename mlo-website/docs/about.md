@@ -154,4 +154,3 @@ Regardless of what timeline we're in, the neon glow under spanish moss, the crac
 
 ---
 
-**Ready to open your eyes?**

@@ -23,6 +23,7 @@
    ═══════════════════════════════════════════════════════════════════ */
 
 body {
+    pointer-events: auto;
     font-family: 'Share Tech Mono', 'Courier New', monospace !important;
     background:
         linear-gradient(180deg,
@@ -95,14 +96,9 @@ body::after {
 }
 
 .md-main,
+.md-header,
 .md-footer {
     position: relative;
-    z-index: 1;
-}
-
-.md-header {
-    position: relative;
-    z-index: 5 !important; /* must stay above overlay (3) and sidebar (4) */
 }
 
 .md-header {
@@ -750,26 +746,6 @@ body::after {
         border-left: 3px solid var(--neon-pink);
     }
 
-.md-overlay {
-    z-index: 3 !important;
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-
-.md-sidebar--primary {
-    z-index: 4 !important;
-}
-
-.md-sidebar--primary .md-sidebar__scrollwrap {
-    z-index: 5 !important;
-    position: relative;
-}
-
-.md-nav__link {
-    position: relative;
-    z-index: 6 !important;
-    pointer-events: auto !important;
-}
-
     /* Table of contents title in mobile drawer */
     .md-sidebar--primary .md-nav__title {
         background: linear-gradient(135deg, rgba(26, 10, 62, 0.8), rgba(40, 0, 80, 0.6)) !important;
@@ -783,6 +759,11 @@ body::after {
    ═══════════════════════════════════════════════════════════════════ */
 
 @media screen and (max-width: 768px) {
+    .md-header__title {
+        font-size: 0.85rem !important;
+        letter-spacing: 1px;
+    }
+
     .hero-subtitle {
         font-size: 1.8rem;
     }
@@ -799,4 +780,52 @@ body::after {
         padding: 12px 30px;
         font-size: 1rem;
     }
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   VISITOR COUNTER TICKER
+   ═══════════════════════════════════════════════════════════════════ */
+
+.visitor-ticker-wrapper {
+    width: 100%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.4);
+    border-top: 1px solid var(--neon-pink);
+    border-bottom: 1px solid var(--neon-pink);
+    padding: 10px 0;
+    box-shadow:
+        0 0 15px var(--glow-pink),
+        inset 0 0 20px rgba(180, 0, 255, 0.05);
+}
+
+.visitor-ticker-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: visitor-ticker-scroll 20s linear infinite;
+}
+
+@keyframes visitor-ticker-scroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.visitor-ticker-text {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1rem;
+    color: var(--neon-pink);
+    text-shadow:
+        0 0 8px var(--glow-pink),
+        0 0 20px rgba(255, 0, 128, 0.3);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.visitor-ticker-text #visit-count,
+.visitor-ticker-text .visit-count-clone {
+    font-family: 'Orbitron', monospace;
+    font-weight: 700;
+    color: var(--neon-cyan);
+    text-shadow:
+        0 0 8px var(--neon-cyan),
+        0 0 16px rgba(0, 255, 255, 0.5);
 }
