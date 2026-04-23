@@ -505,25 +505,26 @@ body::after {
    GRID LAYOUTS
    ═══════════════════════════════════════════════════════════════════ */
 
-.grid-2col {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+.photo-collage {
+    columns: 3 280px;
+    column-gap: 6px;
     margin: 30px 0;
 }
 
-.card {
-    background: rgba(26, 10, 62, 0.6);
-    border: 1px solid var(--neon-purple);
-    border-radius: 8px;
-    padding: 25px;
-    box-shadow: 0 0 15px var(--glow-purple);
-    transition: all 0.3s ease;
+.photo-collage img {
+    width: 100%;
+    display: block;
+    break-inside: avoid;
+    margin-bottom: 6px;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card:hover {
-    border-color: var(--neon-cyan);
-    box-shadow: 0 0 25px var(--glow-cyan);
+.photo-collage img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 10;
 }
 
 /* ═══════════════════════════════════════════════════════════════════
