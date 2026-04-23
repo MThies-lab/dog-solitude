@@ -541,14 +541,17 @@ details > summary::marker {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 6px;
-    align-items: start;
+    align-items: stretch;
     margin: 30px 0;
 }
 
 .photo-collage img {
     width: 100%;
+    height: 100%;
     display: block;
     border: none;
+    object-fit: cover;
+    object-position: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     /* Default span for most images */
     grid-column: span 3;
@@ -827,6 +830,9 @@ details > summary::marker {
 
     .photo-collage img {
         grid-column: span 3 !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        object-position: center !important;
     }
 
     .photo-collage img:nth-child(1) { grid-column: span 6 !important; grid-row: span 1 !important; }
