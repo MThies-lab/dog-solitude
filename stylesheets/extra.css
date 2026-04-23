@@ -506,16 +506,20 @@ body::after {
    ═══════════════════════════════════════════════════════════════════ */
 
 details > summary {
-    list-style: none;
+    list-style: none !important;
 }
 
 details > summary::-webkit-details-marker {
-    display: none;
+    display: none !important;
 }
 
 details > summary::marker {
-    display: none;
-    content: '';
+    display: none !important;
+    content: '' !important;
+}
+
+.md-content__button {
+    display: none !important;
 }
 
 /* ═══════════════════════════════════════════════════════════════════
