@@ -521,6 +521,12 @@ details > summary::marker {
 .md-typeset details > summary::before,
 .md-typeset details > summary::after {
     display: none !important;
+    content: none !important;
+    background: none !important;
+    mask-image: none !important;
+    -webkit-mask-image: none !important;
+    width: 0 !important;
+    height: 0 !important;
 }
 
 .md-content__button {
