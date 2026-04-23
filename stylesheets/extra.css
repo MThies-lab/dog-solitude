@@ -518,6 +518,11 @@ details > summary::marker {
     content: '' !important;
 }
 
+.md-typeset details > summary::before,
+.md-typeset details > summary::after {
+    display: none !important;
+}
+
 .md-content__button {
     display: none !important;
 }
