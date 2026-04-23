@@ -539,22 +539,21 @@ details > summary::marker {
 
 .photo-collage {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 6px;
-    align-items: stretch;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 8px;
+    align-items: start;
     margin: 30px 0;
 }
 
 .photo-collage img {
     width: 100%;
-    height: 100%;
     display: block;
     border: none;
     object-fit: contain;
     object-position: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     /* Default span for most images */
-    grid-column: span 3;
+    grid-column: span 2;
 }
 
 .photo-collage img:hover {
@@ -565,30 +564,30 @@ details > summary::marker {
 }
 
 /* Create collage effect by varying image sizes */
-.photo-collage img:nth-child(1) { grid-column: span 6; grid-row: span 2; }
-.photo-collage img:nth-child(2) { grid-column: span 3; }
-.photo-collage img:nth-child(3) { grid-column: span 3; }
-.photo-collage img:nth-child(4) { grid-column: span 4; }
-.photo-collage img:nth-child(5) { grid-column: span 4; }
-.photo-collage img:nth-child(6) { grid-column: span 4; }
-.photo-collage img:nth-child(7) { grid-column: span 3; }
-.photo-collage img:nth-child(8) { grid-column: span 3; }
-.photo-collage img:nth-child(9) { grid-column: span 6; }
-.photo-collage img:nth-child(10) { grid-column: span 3; }
+.photo-collage img:nth-child(1) { grid-column: span 4; grid-row: span 2; }
+.photo-collage img:nth-child(2) { grid-column: span 2; }
+.photo-collage img:nth-child(3) { grid-column: span 2; }
+.photo-collage img:nth-child(4) { grid-column: span 3; }
+.photo-collage img:nth-child(5) { grid-column: span 3; }
+.photo-collage img:nth-child(6) { grid-column: span 2; }
+.photo-collage img:nth-child(7) { grid-column: span 2; }
+.photo-collage img:nth-child(8) { grid-column: span 4; }
+.photo-collage img:nth-child(9) { grid-column: span 2; }
+.photo-collage img:nth-child(10) { grid-column: span 2; }
 .photo-collage img:nth-child(11) { grid-column: span 3; }
-.photo-collage img:nth-child(12) { grid-column: span 4; }
-.photo-collage img:nth-child(13) { grid-column: span 4; }
-.photo-collage img:nth-child(14) { grid-column: span 4; }
-.photo-collage img:nth-child(15) { grid-column: span 3; }
-.photo-collage img:nth-child(16) { grid-column: span 3; }
-.photo-collage img:nth-child(17) { grid-column: span 6; }
+.photo-collage img:nth-child(12) { grid-column: span 3; }
+.photo-collage img:nth-child(13) { grid-column: span 2; }
+.photo-collage img:nth-child(14) { grid-column: span 2; }
+.photo-collage img:nth-child(15) { grid-column: span 4; }
+.photo-collage img:nth-child(16) { grid-column: span 2; }
+.photo-collage img:nth-child(17) { grid-column: span 2; }
 .photo-collage img:nth-child(18) { grid-column: span 3; }
 .photo-collage img:nth-child(19) { grid-column: span 3; }
-.photo-collage img:nth-child(20) { grid-column: span 4; }
-.photo-collage img:nth-child(21) { grid-column: span 4; }
+.photo-collage img:nth-child(20) { grid-column: span 2; }
+.photo-collage img:nth-child(21) { grid-column: span 2; }
 .photo-collage img:nth-child(22) { grid-column: span 4; }
-.photo-collage img:nth-child(23) { grid-column: span 3; }
-.photo-collage img:nth-child(24) { grid-column: span 3; }
+.photo-collage img:nth-child(23) { grid-column: span 2; }
+.photo-collage img:nth-child(24) { grid-column: span 2; }
 
 /* ═══════════════════════════════════════════════════════════════════
    BAND MEMBER CARDS
@@ -824,18 +823,15 @@ details > summary::marker {
 
 @media screen and (max-width: 768px) {
     .photo-collage {
-        grid-template-columns: repeat(6, 1fr);
-        gap: 4px;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 6px;
     }
 
     .photo-collage img {
-        grid-column: span 3 !important;
-        height: 100% !important;
-        object-fit: contain !important;
-        object-position: center !important;
+        grid-column: span 2 !important;
     }
 
-    .photo-collage img:nth-child(1) { grid-column: span 6 !important; grid-row: span 1 !important; }
+    .photo-collage img:nth-child(1) { grid-column: span 4 !important; grid-row: span 1 !important; }
 
 
     .md-header__title {
