@@ -4,7 +4,7 @@
 
 ## Capturing the Overdrive
 
-A visual journey through the neon-lit world of Mona Lisa Overdrive. From live performances to behind-the-scenes moments, these images tell the story of our sonic exploration.
+Careen through the neon southern world of Mona Lisa Overdrive. 
 
 ---
 

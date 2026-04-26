@@ -502,13 +502,45 @@ body::after {
 }
 
 /* ═══════════════════════════════════════════════════════════════════
+   DETAILS / COLLAPSIBLE
+   ═══════════════════════════════════════════════════════════════════ */
+
+details > summary {
+    list-style: none !important;
+}
+
+details > summary::-webkit-details-marker {
+    display: none !important;
+}
+
+details > summary::marker {
+    display: none !important;
+    content: '' !important;
+}
+
+.md-typeset details > summary::before,
+.md-typeset details > summary::after {
+    display: none !important;
+    content: none !important;
+    background: none !important;
+    mask-image: none !important;
+    -webkit-mask-image: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.md-content__button {
+    display: none !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
    GRID LAYOUTS
    ═══════════════════════════════════════════════════════════════════ */
 
 .photo-collage {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 6px;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 8px;
     align-items: start;
     margin: 30px 0;
 }
@@ -517,7 +549,11 @@ body::after {
     width: 100%;
     display: block;
     border: none;
+    object-fit: contain;
+    object-position: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Default span for most images */
+    grid-column: span 2;
 }
 
 .photo-collage img:hover {
@@ -526,6 +562,32 @@ body::after {
     position: relative;
     z-index: 10;
 }
+
+/* Create collage effect by varying image sizes */
+.photo-collage img:nth-child(1) { grid-column: span 4; grid-row: span 2; }
+.photo-collage img:nth-child(2) { grid-column: span 2; }
+.photo-collage img:nth-child(3) { grid-column: span 2; }
+.photo-collage img:nth-child(4) { grid-column: span 3; }
+.photo-collage img:nth-child(5) { grid-column: span 3; }
+.photo-collage img:nth-child(6) { grid-column: span 2; }
+.photo-collage img:nth-child(7) { grid-column: span 2; }
+.photo-collage img:nth-child(8) { grid-column: span 4; }
+.photo-collage img:nth-child(9) { grid-column: span 2; }
+.photo-collage img:nth-child(10) { grid-column: span 2; }
+.photo-collage img:nth-child(11) { grid-column: span 3; }
+.photo-collage img:nth-child(12) { grid-column: span 3; }
+.photo-collage img:nth-child(13) { grid-column: span 2; }
+.photo-collage img:nth-child(14) { grid-column: span 2; }
+.photo-collage img:nth-child(15) { grid-column: span 4; }
+.photo-collage img:nth-child(16) { grid-column: span 2; }
+.photo-collage img:nth-child(17) { grid-column: span 2; }
+.photo-collage img:nth-child(18) { grid-column: span 3; }
+.photo-collage img:nth-child(19) { grid-column: span 3; }
+.photo-collage img:nth-child(20) { grid-column: span 2; }
+.photo-collage img:nth-child(21) { grid-column: span 2; }
+.photo-collage img:nth-child(22) { grid-column: span 4; }
+.photo-collage img:nth-child(23) { grid-column: span 2; }
+.photo-collage img:nth-child(24) { grid-column: span 2; }
 
 /* ═══════════════════════════════════════════════════════════════════
    BAND MEMBER CARDS
@@ -761,8 +823,15 @@ body::after {
 
 @media screen and (max-width: 768px) {
     .photo-collage {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 6px;
     }
+
+    .photo-collage img {
+        grid-column: span 2 !important;
+    }
+
+    .photo-collage img:nth-child(1) { grid-column: span 4 !important; grid-row: span 1 !important; }
 
 
     .md-header__title {
