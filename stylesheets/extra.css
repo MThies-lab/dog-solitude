@@ -558,6 +558,13 @@ details > summary::marker {
     z-index: 10;
 }
 
+.grid-2col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 30px 0;
+}
+
 /* ═══════════════════════════════════════════════════════════════════
    BAND MEMBER CARDS
    ═══════════════════════════════════════════════════════════════════ */
@@ -798,6 +805,10 @@ details > summary::marker {
 
     .photo-collage img {
         margin-bottom: 6px;
+    }
+
+    .grid-2col {
+        grid-template-columns: 1fr;
     }
 
 
