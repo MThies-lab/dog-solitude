@@ -738,8 +738,7 @@ details > summary::marker {
 /* Responsive video embed iframe */
 .video-wrapper {
     position: relative;
-    padding-bottom: 56.25; /* 16:9 Aspect ratio */
-    paddin-top: 25px;
+    padding-bottom: 56.25%; /* 16:9 Aspect ratio */
     height: 0;
     overflow: hidden;
 }
